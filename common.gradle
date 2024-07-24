@@ -97,6 +97,7 @@ String artifactVersion = project.mod_version
 String artifactVersionSuffix = ''
 // detect github action environment variables
 // https://docs.github.com/en/actions/learn-github-actions/environment-variables#default-environment-variables
+// USE: $env:BUILD_RELEASE='true'; ./gradlew buildAndGather
 if (System.getenv("BUILD_RELEASE") != "true") {
 	String buildNumber = System.getenv("BUILD_ID")
 	modVersionSuffix += buildNumber != null ? ('+build.' + buildNumber) : '-SNAPSHOT'
