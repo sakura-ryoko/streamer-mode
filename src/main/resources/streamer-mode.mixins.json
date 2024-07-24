@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.fallenbreath.template_mod.mixins",
+  "package": "com.sakuraryoko.streamer_mode.mixins",
   "compatibilityLevel": "{{COMPATIBILITY_LEVEL}}",
   "mixins": [
-    "MinecraftServerMixin"
+    "MixinKeyCallbackToggleBooleanConfigWithMessage",
+    "MixinMaLiLibConfigs"
   ],
   "client": [
+    "MixinMaLiLibConfigGui"
   ],
   "injectors": {
     "defaultRequire": 1
