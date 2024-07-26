@@ -56,7 +56,7 @@ public class StreamerMode implements ModInitializer
 			//#endif
 
 	public static final String MOD_ID = "streamer-mode";
-	public static String MOD_VERSION = "1.0.0";
+	public static String MOD_VERSION = "1.0.1";
 	public static String MOD_NAME = "StreamerMode";
 
 	@Override
