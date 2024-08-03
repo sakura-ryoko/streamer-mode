@@ -18,28 +18,31 @@
  * along with StreamerMode.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.sakuraryoko.streamer_mode.mixins;
+package com.sakuraryoko.streamer_mode.config;
 
+import java.util.List;
 import com.google.common.collect.ImmutableList;
-import com.sakuraryoko.streamer_mode.config.Configs;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Redirect;
 import fi.dy.masa.malilib.MaLiLibConfigs;
 import fi.dy.masa.malilib.config.IConfigValue;
+import fi.dy.masa.malilib.config.options.ConfigBoolean;
 
-@Mixin(value = MaLiLibConfigs.class, remap = false)
-public class MixinMaLiLibConfigs
+public class Configs
 {
-    @Redirect(method = "loadFromFile", at = @At(value = "FIELD", target = "Lfi/dy/masa/malilib/MaLiLibConfigs$Generic;OPTIONS:Lcom/google/common/collect/ImmutableList;"))
-    private static ImmutableList<IConfigValue> addConfigs()
-    {
-        return Configs.getConfigList();
-    }
+    //#if MC >= 12100
+    //$$ public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
+            //$$ "streamer-mode.configs.generic.comment.streamerMode",
+            //$$ "streamer-mode.configs.generic.prettyName.streamerMode").translatedName("streamer-mode.configs.generic.name.streamerMode");
+    //#else
+    public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
+            "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
+            "Streamer Mode");
+    //#endif
 
-    @Redirect(method = "saveToFile", at = @At(value = "FIELD", target = "Lfi/dy/masa/malilib/MaLiLibConfigs$Generic;OPTIONS:Lcom/google/common/collect/ImmutableList;"))
-    private static ImmutableList<IConfigValue> saveConfigs()
+    public static ImmutableList<IConfigValue> getConfigList()
     {
-        return Configs.getConfigList();
+        List<IConfigValue> list = new java.util.ArrayList<>(MaLiLibConfigs.Generic.OPTIONS);
+        list.add(STREAMER_MODE);
+
+        return ImmutableList.copyOf(list);
     }
 }

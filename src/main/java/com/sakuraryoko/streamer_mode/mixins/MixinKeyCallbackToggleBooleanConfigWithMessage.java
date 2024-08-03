@@ -20,7 +20,7 @@
 
 package com.sakuraryoko.streamer_mode.mixins;
 
-import com.sakuraryoko.streamer_mode.StreamerMode;
+import com.sakuraryoko.streamer_mode.config.Configs;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -37,7 +37,7 @@ public class MixinKeyCallbackToggleBooleanConfigWithMessage
                     shift = At.Shift.BEFORE), cancellable = true)
     private void applyStreamerMode(KeyAction action, IKeybind key, CallbackInfoReturnable<Boolean> cir)
     {
-        if (StreamerMode.STREAMER_MODE.getBooleanValue())
+        if (Configs.STREAMER_MODE.getBooleanValue())
         {
             cir.setReturnValue(true);
             cir.cancel();

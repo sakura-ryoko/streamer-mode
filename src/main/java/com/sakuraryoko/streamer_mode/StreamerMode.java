@@ -20,14 +20,9 @@
 
 package com.sakuraryoko.streamer_mode;
 
-import java.util.List;
-import com.google.common.collect.ImmutableList;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.metadata.ModMetadata;
-import fi.dy.masa.malilib.MaLiLibConfigs;
-import fi.dy.masa.malilib.config.IConfigValue;
-import fi.dy.masa.malilib.config.options.ConfigBoolean;
 
 //#if MC >= 11802
 //$$ import com.mojang.logging.LogUtils;
@@ -39,15 +34,6 @@ import org.apache.logging.log4j.Logger;
 
 public class StreamerMode implements ModInitializer
 {
-	public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false, "Streamer Mode");
-	public static ImmutableList<IConfigValue> getConfigList()
-	{
-		List<IConfigValue> list = new java.util.ArrayList<>(MaLiLibConfigs.Generic.OPTIONS);
-		list.add(STREAMER_MODE);
-
-		return ImmutableList.copyOf(list);
-	}
-
 	public static final Logger LOGGER =
 			//#if MC >= 11802
 			//$$ LogUtils.getLogger();
@@ -56,7 +42,7 @@ public class StreamerMode implements ModInitializer
 			//#endif
 
 	public static final String MOD_ID = "streamer-mode";
-	public static String MOD_VERSION = "1.0.1";
+	public static String MOD_VERSION = "1.0.2";
 	public static String MOD_NAME = "StreamerMode";
 
 	@Override

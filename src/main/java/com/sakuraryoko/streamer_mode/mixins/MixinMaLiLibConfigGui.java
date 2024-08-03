@@ -21,7 +21,7 @@
 package com.sakuraryoko.streamer_mode.mixins;
 
 import com.google.common.collect.ImmutableList;
-import com.sakuraryoko.streamer_mode.StreamerMode;
+import com.sakuraryoko.streamer_mode.config.Configs;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
@@ -34,6 +34,6 @@ public class MixinMaLiLibConfigGui
     @Redirect(method = "getConfigs", at = @At(value = "FIELD", target = "Lfi/dy/masa/malilib/MaLiLibConfigs$Generic;OPTIONS:Lcom/google/common/collect/ImmutableList;"))
     private ImmutableList<IConfigValue> getGuiConfig()
     {
-        return StreamerMode.getConfigList();
+        return Configs.getConfigList();
     }
 }
