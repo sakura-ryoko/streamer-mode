@@ -32,16 +32,23 @@ public class Configs
     //$$ public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
             //$$ "streamer-mode.configs.generic.comment.streamerMode",
             //$$ "streamer-mode.configs.generic.prettyName.streamerMode").translatedName("streamer-mode.configs.generic.name.streamerMode");
+    //$$ public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false,
+            //$$ "streamer-mode.configs.generic.comment.streamerModeDisableAll",
+            //$$ "streamer-mode.configs.generic.prettyName.streamerModeDisableAll").translatedName("streamer-mode.configs.generic.name.streamerModeDisableAll");
     //#else
     public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
             "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
             "Streamer Mode");
+    public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false,
+            "Allow Streamer Mode to Disable all\nAction Bar messages.",
+            "Streamer Mode Disable All");
     //#endif
 
     public static ImmutableList<IConfigValue> getConfigList()
     {
         List<IConfigValue> list = new java.util.ArrayList<>(MaLiLibConfigs.Generic.OPTIONS);
         list.add(STREAMER_MODE);
+        list.add(STREAMER_MODE_DISABLE_ALL);
 
         return ImmutableList.copyOf(list);
     }
