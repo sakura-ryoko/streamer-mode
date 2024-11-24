@@ -1,0 +1,3 @@
+files:
+  - source: /src/main/resources/assets/streamer-mode/lang/en_us.json
+    translation: /src/main/resources/assets/streamer-mode/lang/crowdin/%locale_with_underscore%.json
