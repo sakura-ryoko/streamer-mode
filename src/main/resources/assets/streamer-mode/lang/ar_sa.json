@@ -1,0 +1,8 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "وضع البث",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "وضع البث",
+    "streamer-mode.configs.generic.comment.streamerMode": "قم بتمكين وضع Streamer لتعطيل رسائل شريط إجراءات استدعاء مفتاح الربط المنطقي\nالافتراضية.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "وضع البث تعطيل الكل",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "تعطيل وضع البث المباشر",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "السماح لوضع Streamer بتعطيل جميع رسائل شريط الإجراءات\n."
+}

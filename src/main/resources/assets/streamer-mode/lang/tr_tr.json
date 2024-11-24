@@ -1,0 +1,8 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "akış modu",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Yayın Modu",
+    "streamer-mode.configs.generic.comment.streamerMode": "Varsayılan\nBoolean Tuş Bağlama Geri Çağrı Eylem Çubuğu mesajlarını devre dışı bırakmak için Akış Modunu Etkinleştirin.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeAll'ı Devre Dışı Bırak",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Modu Tümünü Devre Dışı Bırak",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Tüm\nEylem Çubuğu mesajlarını Devre Dışı Bırakmak için Akış Moduna İzin Verin."
+}

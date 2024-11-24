@@ -1,0 +1,8 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "ストリーマーモード",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "ストリーマーモード",
+    "streamer-mode.configs.generic.comment.streamerMode": "ストリーマー モードを有効にすると、デフォルトの\nブール キーバインド コールバック アクション バー メッセージが無効になります。",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "ストリーマーモード無効",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "ストリーマーモードすべて無効",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "ストリーマー モードですべての\nアクション バー メッセージを無効にできるようにします。"
+}

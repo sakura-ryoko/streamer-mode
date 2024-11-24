@@ -6,5 +6,4 @@
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
     "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
-
 }

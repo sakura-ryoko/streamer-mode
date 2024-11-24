@@ -1,0 +1,8 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "streamermodus",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer-modus",
+    "streamer-mode.configs.generic.comment.streamerMode": "Aktiveer Streamer-modus om die verstek\nBooleaanse Sleutelbind-terugbelaksiebalkboodskappe te deaktiveer.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamermodus Deaktiveer alles",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Laat Streamer-modus toe om alle\nAksiebalkboodskappe te deaktiveer."
+}

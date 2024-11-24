@@ -1,0 +1,8 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "modotransmisor",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Modo Streamer",
+    "streamer-mode.configs.generic.comment.streamerMode": "Habilite el modo Streamer para deshabilitar los mensajes predeterminados de la barra de acción de devolución de llamada de combinación de teclas booleanas\n.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "Modo de transmisión Deshabilitar todo",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Deshabilitar todo el modo Streamer",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Permitir que el modo Streamer deshabilite todos los mensajes de la barra de acción\n."
+}

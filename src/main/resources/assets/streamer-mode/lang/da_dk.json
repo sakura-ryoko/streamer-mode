@@ -1,0 +1,8 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "streamertilstand",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer-tilstand",
+    "streamer-mode.configs.generic.comment.streamerMode": "Aktiver Streamer Mode for at deaktivere standardmeddelelserne for\nBoolean Keybinding Callback Action Bar.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer-tilstand Deaktiver alle",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Tillad Streamer Mode at deaktivere alle\nhandlingslinjemeddelelser."
+}
