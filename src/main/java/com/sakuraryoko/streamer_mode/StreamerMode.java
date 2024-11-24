@@ -2,7 +2,7 @@
  * This file is part of the StreamerMode project, licensed under the
  * GNU Lesser General Public License v3.0
  *
- * Copyright (C) 2023  Fallen_Breath and contributors
+ * Copyright (C) 2024  Sakura-Ryoko and contributors
  *
  * StreamerMode is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -21,35 +21,13 @@
 package com.sakuraryoko.streamer_mode;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.loader.api.FabricLoader;
-import net.fabricmc.loader.api.metadata.ModMetadata;
-
-//#if MC >= 11802
-//$$ import com.mojang.logging.LogUtils;
-//$$ import org.slf4j.Logger;
-//#else
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-//#endif
 
 public class StreamerMode implements ModInitializer
 {
-	public static final Logger LOGGER =
-			//#if MC >= 11802
-			//$$ LogUtils.getLogger();
-			//#else
-			LogManager.getLogger();
-			//#endif
-
-	public static final String MOD_ID = "streamer-mode";
-	public static String MOD_VERSION = "1.0.2";
-	public static String MOD_NAME = "StreamerMode";
+	public static final Logger LOGGER = LogManager.getLogger(Reference.MOD_ID);
 
 	@Override
-	public void onInitialize()
-	{
-		ModMetadata metadata = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(RuntimeException::new).getMetadata();
-		MOD_NAME = metadata.getName();
-		MOD_VERSION = metadata.getVersion().getFriendlyString();
-	}
+	public void onInitialize() {}
 }

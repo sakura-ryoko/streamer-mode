@@ -25,23 +25,27 @@ import com.google.common.collect.ImmutableList;
 import fi.dy.masa.malilib.MaLiLibConfigs;
 import fi.dy.masa.malilib.config.IConfigValue;
 import fi.dy.masa.malilib.config.options.ConfigBoolean;
+import com.sakuraryoko.streamer_mode.utils.StringUtils;
 
 public class Configs
 {
     //#if MC >= 12100
-    //$$ public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
-            //$$ "streamer-mode.configs.generic.comment.streamerMode",
-            //$$ "streamer-mode.configs.generic.prettyName.streamerMode").translatedName("streamer-mode.configs.generic.name.streamerMode");
-    //$$ public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false,
-            //$$ "streamer-mode.configs.generic.comment.streamerModeDisableAll",
-            //$$ "streamer-mode.configs.generic.prettyName.streamerModeDisableAll").translatedName("streamer-mode.configs.generic.name.streamerModeDisableAll");
+    //$$ private static final String GENERIC_KEY = "streamer-mode.configs.generic";
+    //$$ public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false)
+        //$$ .apply(GENERIC_KEY);
+    //$$ public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false)
+        //$$ .apply(GENERIC_KEY);
     //#else
     public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
-            "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
-            "Streamer Mode");
+                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.comment.streamerMode",
+                                "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages."),
+                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.prettyName.streamerMode",
+                                "Streamer Mode"));
     public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false,
-            "Allow Streamer Mode to Disable all\nAction Bar messages.",
-            "Streamer Mode Disable All");
+                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.comment.streamerModeDisableAll",
+                                "Allow Streamer Mode to Disable all\nAction Bar messages."),
+                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.prettyName.streamerModeDisableAll",
+                                "Streamer Mode Disable All"));
     //#endif
 
     public static ImmutableList<IConfigValue> getConfigList()

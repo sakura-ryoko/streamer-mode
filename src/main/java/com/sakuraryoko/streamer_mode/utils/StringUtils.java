@@ -18,24 +18,23 @@
  * along with StreamerMode.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.sakuraryoko.streamer_mode.mixins;
+package com.sakuraryoko.streamer_mode.utils;
 
-import com.sakuraryoko.streamer_mode.config.Configs;
-import fi.dy.masa.malilib.util.InfoUtils;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.jetbrains.annotations.Nullable;
 
-@Mixin(InfoUtils.class)
-public class MixinInfoUtils
+public class StringUtils
 {
-    @Inject(method = "printActionbarMessage*", at = @At("HEAD"), cancellable = true, remap = false)
-    private static void checkPrintActionBar(String key, Object[] args, CallbackInfo ci)
+    // Older MaLiLib does not have this
+    @Nullable
+    public static String getTranslatedOrFallback(String key, @Nullable String fallback)
     {
-        if (Configs.STREAMER_MODE_DISABLE_ALL.getBooleanValue())
+        String translated = fi.dy.masa.malilib.util.StringUtils.translate(key);
+
+        if (!key.equals(translated))
         {
-            ci.cancel();
+            return translated;
         }
+
+        return fallback;
     }
 }

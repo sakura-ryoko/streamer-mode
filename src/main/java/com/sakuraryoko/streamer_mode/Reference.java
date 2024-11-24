@@ -18,24 +18,13 @@
  * along with StreamerMode.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.sakuraryoko.streamer_mode.mixins;
+package com.sakuraryoko.streamer_mode;
 
-import com.sakuraryoko.streamer_mode.config.Configs;
-import fi.dy.masa.malilib.util.InfoUtils;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import fi.dy.masa.malilib.util.StringUtils;
 
-@Mixin(InfoUtils.class)
-public class MixinInfoUtils
+public class Reference
 {
-    @Inject(method = "printActionbarMessage*", at = @At("HEAD"), cancellable = true, remap = false)
-    private static void checkPrintActionBar(String key, Object[] args, CallbackInfo ci)
-    {
-        if (Configs.STREAMER_MODE_DISABLE_ALL.getBooleanValue())
-        {
-            ci.cancel();
-        }
-    }
+    public static final String MOD_ID = "streamer-mode";
+    public static String MOD_VERSION = StringUtils.getModVersionString(MOD_ID);
+    public static String MOD_NAME = "StreamerMode";
 }

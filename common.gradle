@@ -2,13 +2,8 @@ apply plugin: 'maven-publish'
 apply plugin: 'com.github.hierynomus.license'
 apply plugin: 'fabric-loom'
 apply plugin: 'com.replaymod.preprocess'
-apply plugin: 'me.fallenbreath.yamlang'
 
 int mcVersion = project.mcVersion
-
-preprocess {
-	tabIndentation = true
-}
 
 repositories {
 	maven {
@@ -32,9 +27,6 @@ repositories {
 configurations {
 	modRuntimeOnly.exclude group: 'net.fabricmc', module: 'fabric-loader'
 }
-configurations {
-	modImplementation.exclude group: 'io.github.prospector', module: 'modmenu'
-}
 
 dependencies {
 	// loom
@@ -42,23 +34,23 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// runtime mods
-//	if (mcVersion < 11904) {
-//		modRuntimeOnly(mcVersion < 11900 ? "com.github.astei:lazydfu:0.1.2" : "com.github.Fallen-Breath:lazydfu:a7cfc44c0c")
-//	}
 	// [FEATURE] MIXIN_AUDITOR
 	modRuntimeOnly 'me.fallenbreath:mixin-auditor:0.1.0'
-
-	modImplementation "fi.dy.masa.malilib:${project.malilib_version}"
 
 	// dependencies
 //	include(modImplementation(fabricApi.module("fabric-resource-loader-v0", project.fabric_api_version)))
 	include(modImplementation("me.fallenbreath:conditional-mixin-fabric:${project.conditionalmixin_version}"))
 	include(annotationProcessor(implementation("io.github.llamalad7:mixinextras-fabric:${project.mixinextras_version}")))
+
+	if (!project.hasProperty("malilib_projectid") || mcVersion < 12005) {
+		modImplementation "fi.dy.masa.malilib:${project.malilib_version}"
+	} else {
+		modImplementation "com.github.sakura-ryoko:${project.malilib_version}"
+	}
 }
 
 String MIXIN_CONFIG_PATH = 'streamer-mode.mixins.json'
-String LANG_DIR = 'assets/streamer-mode/lang'
+//String LANG_DIR = 'assets/streamer-mode/lang'
 JavaVersion JAVA_COMPATIBILITY
 if (mcVersion >= 12005) {
 	JAVA_COMPATIBILITY = JavaVersion.VERSION_21
@@ -72,11 +64,12 @@ if (mcVersion >= 12005) {
 JavaVersion MIXIN_COMPATIBILITY_LEVEL = JAVA_COMPATIBILITY
 
 loom {
+	def commonVmArgs = ['-Dmixin.debug.export=true', '-Dmixin.debug.countInjections=true']
 	runConfigs.configureEach {
 		// to make sure it generates all "Minecraft Client (:subproject_name)" applications
 		ideConfigGenerated = true
 		runDir '../../run'
-		vmArgs '-Dmixin.debug.export=true'
+		vmArgs commonVmArgs
 	}
 	// [FEATURE] MIXIN_AUDITOR
 	runs {
@@ -86,10 +79,6 @@ loom {
 			ideConfigGenerated false
 		}
 	}
-}
-
-remapJar {
-	remapperIsolation = true
 }
 
 String modVersionSuffix = ''
@@ -152,10 +141,10 @@ processResources {
 }
 
 // https://github.com/Fallen-Breath/yamlang
-yamlang {
-	targetSourceSets = [sourceSets.main]
-	inputDir = LANG_DIR
-}
+//yamlang {
+	//targetSourceSets = [sourceSets.main]
+	//inputDir = LANG_DIR
+//}
 
 // ensure that the encoding is set to UTF-8, no matter what the system default is
 // this fixes some edge cases with special characters not displaying correctly
@@ -219,31 +208,3 @@ license {
 }
 classes.dependsOn licenseFormatMain
 testClasses.dependsOn licenseFormatTest
-
-// configure the maven publication
-publishing {
-	publications {
-		mavenJava(MavenPublication) {
-			artifactId base.archivesName.get()
-			from components.java
-            version = fullArtifactVersion
-		}
-	}
-
-	// select the repositories you want to publish to
-	repositories {
-		// mavenLocal()
-
-//		// [FEATURE] FALLENS_MAVEN
-//		maven {
-//			url = fullArtifactVersion.endsWith("SNAPSHOT") ? "https://maven.fallenbreath.me/snapshots" : "https://maven.fallenbreath.me/releases"
-//			credentials(PasswordCredentials) {
-//				username = 'fallen'
-//				password = System.getenv("FALLENS_MAVEN_TOKEN")
-//			}
-//			authentication {
-//				basic(BasicAuthentication)
-//			}
-//		}
-	}
-}
