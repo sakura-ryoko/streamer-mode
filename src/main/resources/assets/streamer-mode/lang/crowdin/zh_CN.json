@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "流光模式",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "主播模式",
-    "streamer-mode.configs.generic.comment.streamerMode": "启用 Streamer 模式以禁用默认的\n布尔键绑定回调操作栏消息。",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "启用 Streamer 模式以禁用默认的\n布尔键绑定回调操作栏消息。",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "允许 Streamer 模式禁用所有\n操作栏消息。",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "主播模式",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "流媒体模式全部禁用",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "允许 Streamer 模式禁用所有\n操作栏消息。"
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
