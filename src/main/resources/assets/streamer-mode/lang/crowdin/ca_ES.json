@@ -5,5 +5,5 @@
     "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Permet que el mode Streamer desactivi tots els missatges de la barra d'accions\n.",
     "streamer-mode.configs.generic.prettyName.streamerMode": "Mode Streamer",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Mode Streamer Desactiva-ho tot",
-    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Tecles d'accés directe genèrics"
 }
