@@ -5,5 +5,5 @@
     "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Autoriser le mode Streamer à désactiver tous les\nmessages de la barre d'action.",
     "streamer-mode.configs.generic.prettyName.streamerMode": "Mode Streamer",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Mode Streamer Désactiver tout",
-    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Raccourcis clavier génériques"
 }
