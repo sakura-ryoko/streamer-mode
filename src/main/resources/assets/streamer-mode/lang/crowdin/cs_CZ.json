@@ -5,5 +5,5 @@
     "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Povolit režimu streamování zakázat všechny zprávy\nna panelu akcí.",
     "streamer-mode.configs.generic.prettyName.streamerMode": "Režim streamování",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Režim streamování Zakázat vše",
-    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Obecné klávesové zkratky"
 }
