@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerläge",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamerläge",
-    "streamer-mode.configs.generic.comment.streamerMode": "Aktivera Streamer Mode för att inaktivera standardmeddelandena för\nBoolean Keybind Callback Action Bar.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Aktivera Streamer Mode för att inaktivera standardmeddelandena för\nBoolean Keybind Callback Action Bar.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Tillåt Streamer Mode att inaktivera alla\nAction Bar-meddelanden.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamerläge",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamerläge Inaktivera alla",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Tillåt Streamer Mode att inaktivera alla\nAction Bar-meddelanden."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
