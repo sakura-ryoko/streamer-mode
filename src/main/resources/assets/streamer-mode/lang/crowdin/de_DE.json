@@ -5,5 +5,5 @@
     "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Erlauben Sie dem Streamer-Modus, alle\nAktionsleistennachrichten zu deaktivieren.",
     "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer-Modus",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer-Modus Alle deaktivieren",
-    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Allgemeine Hotkeys"
 }
