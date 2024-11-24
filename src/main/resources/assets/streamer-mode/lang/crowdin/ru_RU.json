@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Режим стримера",
-    "streamer-mode.configs.generic.comment.streamerMode": "Включите режим Streamer, чтобы отключить стандартные сообщения\nна панели действий обратного вызова привязки логических значений.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Включите режим Streamer, чтобы отключить стандартные сообщения\nна панели действий обратного вызова привязки логических значений.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Разрешить режиму Streamer отключать все сообщения\nна панели действий.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Режим стримера",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Режим стримера Отключить все",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Разрешить режиму Streamer отключать все сообщения\nна панели действий."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
