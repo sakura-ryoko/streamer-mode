@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer mód",
-    "streamer-mode.configs.generic.comment.streamerMode": "Engedélyezze a Streamer módot az alapértelmezett\nBoolean Keybind visszahívási műveletsor üzeneteinek letiltásához.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Engedélyezze a Streamer módot az alapértelmezett\nBoolean Keybind visszahívási műveletsor üzeneteinek letiltásához.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Engedélyezze a Streamer módban az összes\nAction Bar üzenet letiltását.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer mód",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer mód Összes letiltása",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Engedélyezze a Streamer módban az összes\nAction Bar üzenet letiltását."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
