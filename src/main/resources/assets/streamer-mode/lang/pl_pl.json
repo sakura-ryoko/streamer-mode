@@ -1,8 +1,0 @@
-{
-    "streamer-mode.configs.generic.name.streamerMode": "Tryb streamera",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Tryb Streamera",
-    "streamer-mode.configs.generic.comment.streamerMode": "Włącz tryb Streamer, aby wyłączyć domyślne komunikaty paska akcji wywołania zwrotnego klawisza logicznego\n.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeWyłączWszystko",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Tryb Streamera Wyłącz wszystko",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Zezwól trybowi Streamer na wyłączenie wszystkich komunikatów paska akcji\n."
-}

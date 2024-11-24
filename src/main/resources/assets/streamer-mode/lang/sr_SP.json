@@ -1,0 +1,9 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "стреамерМоде",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "стреамерМодеДисаблеАлл",
+    "streamer-mode.configs.generic.comment.streamerMode": "Омогућите Стреамер режим да бисте онемогућили подразумеване\nБоолеан Кеибинд Цаллбацк Ацтион Бар поруке.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Дозволите Стреамер режиму да онемогући све\nпоруке траке радњи.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Стреамер Моде",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Стреамер Моде Онемогући све",
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Генеричке пречице"
+}

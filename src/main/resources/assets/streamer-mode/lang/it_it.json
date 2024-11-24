@@ -1,8 +1,0 @@
-{
-    "streamer-mode.configs.generic.name.streamerMode": "Modalità Streamer",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Modalità Streamer",
-    "streamer-mode.configs.generic.comment.streamerMode": "Abilita la modalità Streamer per disabilitare i messaggi della barra delle azioni di callback dei tasti booleani predefiniti\n.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Modalità Streamer Disabilita tutto",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Consenti alla modalità Streamer di disattivare tutti i messaggi della barra delle azioni\n."
-}

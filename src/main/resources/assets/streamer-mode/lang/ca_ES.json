@@ -1,0 +1,9 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Habiliteu el mode Streamer per desactivar els missatges predeterminats de la barra d'acció de devolució de trucada\nboolean.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Permet que el mode Streamer desactivi tots els missatges de la barra d'accions\n.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Mode Streamer",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Mode Streamer Desactiva-ho tot",
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Tecles d'accés directe genèrics"
+}

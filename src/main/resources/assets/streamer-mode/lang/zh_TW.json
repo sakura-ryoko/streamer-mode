@@ -1,0 +1,9 @@
+{
+    "streamer-mode.configs.generic.name.streamerMode": "流光模式",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "串流模式禁用全部",
+    "streamer-mode.configs.generic.comment.streamerMode": "啟用 Streamer 模式以停用預設的\n布林按鍵綁定回呼操作列訊息。",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "允許 Streamer 模式停用所有\n操作欄訊息。",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "流光模式",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "流光模式全部停用",
+    "streamer-mode.hotkeys.category.generic_hotkeys": "通用熱鍵"
+}

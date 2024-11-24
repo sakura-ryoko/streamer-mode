@@ -1,8 +1,0 @@
-{
-    "streamer-mode.configs.generic.name.streamerMode": "streamerModus",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer-modus",
-    "streamer-mode.configs.generic.comment.streamerMode": "Schakel Streamer-modus in om de standaard\nBooleaanse toetscombinatie-callbackactiebalkberichten uit te schakelen.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeAlles uitschakelen",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer-modus Alles uitschakelen",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Sta Streamer-modus toe om alle\nberichten op de actiebalk uit te schakelen."
-}

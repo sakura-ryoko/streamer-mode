@@ -1,8 +1,0 @@
-{
-    "streamer-mode.configs.generic.name.streamerMode": "स्ट्रीमर मोड",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "स्ट्रीमर मोड",
-    "streamer-mode.configs.generic.comment.streamerMode": "डिफ़ॉल्ट\nबूलियन कीबाइंड कॉलबैक एक्शन बार संदेशों को अक्षम करने के लिए स्ट्रीमर मोड सक्षम करें।",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "स्ट्रीमर मोड डिसेबलऑल",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "स्ट्रीमर मोड सभी अक्षम करें",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "स्ट्रीमर मोड को सभी\nएक्शन बार संदेशों को अक्षम करने की अनुमति दें।"
-}
