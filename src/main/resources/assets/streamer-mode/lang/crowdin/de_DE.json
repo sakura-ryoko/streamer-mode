@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer-Modus",
-    "streamer-mode.configs.generic.comment.streamerMode": "Aktivieren Sie den Streamer-Modus, um die standardmäßigen Booleschen Keybind-Callback-Action-Bar-Meldungen\nzu deaktivieren.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Aktivieren Sie den Streamer-Modus, um die standardmäßigen Booleschen Keybind-Callback-Action-Bar-Meldungen\nzu deaktivieren.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Erlauben Sie dem Streamer-Modus, alle\nAktionsleistennachrichten zu deaktivieren.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer-Modus",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer-Modus Alle deaktivieren",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Erlauben Sie dem Streamer-Modus, alle\nAktionsleistennachrichten zu deaktivieren."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
