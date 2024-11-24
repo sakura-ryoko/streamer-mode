@@ -1,8 +1,8 @@
 {
-    "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer Mode",
-    "streamer-mode.configs.generic.comment.streamerMode": "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
+    "streamer-mode.configs.generic.name.streamerMode": "akış modu",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Yayın Modu",
+    "streamer-mode.configs.generic.comment.streamerMode": "Varsayılan\nBoolean Tuş Bağlama Geri Çağrı Eylem Çubuğu mesajlarını devre dışı bırakmak için Akış Modunu Etkinleştirin.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeAll'ı Devre Dışı Bırak",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Modu Tümünü Devre Dışı Bırak",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Tüm\nEylem Çubuğu mesajlarını Devre Dışı Bırakmak için Akış Moduna İzin Verin."
 }

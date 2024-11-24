@@ -1,8 +1,8 @@
 {
-    "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer Mode",
-    "streamer-mode.configs.generic.comment.streamerMode": "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
+    "streamer-mode.configs.generic.name.streamerMode": "Modo streamer",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Modo Streamer",
+    "streamer-mode.configs.generic.comment.streamerMode": "Habilite o Modo Streamer para desabilitar as mensagens padrão da Barra de Ações de Retorno de Chamada de Atalho Booleano\n.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDesativarTodos",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Modo Streamer Desativar tudo",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Permitir que o Modo Streamer desabilite todas as mensagens da Barra de Ações\n."
 }
