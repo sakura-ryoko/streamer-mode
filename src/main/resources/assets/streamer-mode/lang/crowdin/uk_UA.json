@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Режим стримера",
-    "streamer-mode.configs.generic.comment.streamerMode": "Увімкніть режим Streamer, щоб вимкнути повідомлення за замовчуванням\nBoolean Keybind Callback Action Bar.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Увімкніть режим Streamer, щоб вимкнути повідомлення за замовчуванням\nBoolean Keybind Callback Action Bar.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Дозволити режиму Streamer вимкнути всі\nповідомлення панелі дій.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Режим стримера",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Режим стрімера Вимкнути все",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Дозволити режиму Streamer вимкнути всі\nповідомлення панелі дій."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Загальні гарячі клавіші"
 }

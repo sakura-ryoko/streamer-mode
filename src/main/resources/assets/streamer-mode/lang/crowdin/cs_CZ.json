@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Režim streamování",
-    "streamer-mode.configs.generic.comment.streamerMode": "Povolením režimu streamování zakážete výchozí zprávy\nBoolean Keybind Callback Action Bar.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "Povolením režimu streamování zakážete výchozí zprávy\nBoolean Keybind Callback Action Bar.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Povolit režimu streamování zakázat všechny zprávy\nna panelu akcí.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Režim streamování",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Režim streamování Zakázat vše",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Povolit režimu streamování zakázat všechny zprávy\nna panelu akcí."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Obecné klávesové zkratky"
 }
