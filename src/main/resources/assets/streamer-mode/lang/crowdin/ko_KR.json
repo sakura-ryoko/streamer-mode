@@ -1,8 +1,8 @@
 {
-    "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer Mode",
-    "streamer-mode.configs.generic.comment.streamerMode": "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
+    "streamer-mode.configs.generic.name.streamerMode": "스트리머모드",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "스트리머 모드",
+    "streamer-mode.configs.generic.comment.streamerMode": "스트리머 모드를 활성화하면 기본\n부울 키 바인딩 콜백 액션 바 메시지가 비활성화됩니다.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "스트리머모드모두 비활성화",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "스트리머 모드 모두 비활성화",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "스트리머 모드에서 모든\n작업 표시줄 메시지를 비활성화하도록 허용합니다."
 }
