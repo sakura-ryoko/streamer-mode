@@ -5,5 +5,5 @@
     "streamer-mode.configs.generic.comment.streamerModeDisableAll": "스트리머 모드에서 모든\n작업 표시줄 메시지를 비활성화하도록 허용합니다.",
     "streamer-mode.configs.generic.prettyName.streamerMode": "스트리머 모드",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "스트리머 모드 모두 비활성화",
-    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
+    "streamer-mode.hotkeys.category.generic_hotkeys": "일반 단축키"
 }
