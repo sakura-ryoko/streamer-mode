@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "Mode streamer",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Mode Streamer",
-    "streamer-mode.configs.generic.comment.streamerMode": "Activez le mode Streamer pour désactiver les messages de la barre d'action de rappel de raccourci clavier booléen par défaut\n.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDésactiverTout",
+    "streamer-mode.configs.generic.comment.streamerMode": "Activez le mode Streamer pour désactiver les messages de la barre d'action de rappel de raccourci clavier booléen par défaut\n.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Autoriser le mode Streamer à désactiver tous les\nmessages de la barre d'action.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Mode Streamer",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Mode Streamer Désactiver tout",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Autoriser le mode Streamer à désactiver tous les\nmessages de la barre d'action."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
