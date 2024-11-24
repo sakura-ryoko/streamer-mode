@@ -1,8 +1,8 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer Mode",
-    "streamer-mode.configs.generic.comment.streamerMode": "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Λειτουργία Streamer",
+    "streamer-mode.configs.generic.comment.streamerMode": "Ενεργοποιήστε τη λειτουργία ροής για να απενεργοποιήσετε τα προεπιλεγμένα\nμηνύματα της γραμμής ενεργειών επανάκλησης λογιστικού πληκτρολογίου.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Λειτουργία ροής Απενεργοποίηση όλων",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Επιτρέψτε στη λειτουργία ροής να απενεργοποιήσει όλα τα μηνύματα της γραμμής ενεργειών\n."
 }
