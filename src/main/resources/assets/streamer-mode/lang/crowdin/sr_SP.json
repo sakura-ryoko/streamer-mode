@@ -1,8 +1,8 @@
 {
-    "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer Mode",
-    "streamer-mode.configs.generic.comment.streamerMode": "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
-    "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
+    "streamer-mode.configs.generic.name.streamerMode": "стреамерМоде",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "Стреамер Моде",
+    "streamer-mode.configs.generic.comment.streamerMode": "Омогућите Стреамер режим да бисте онемогућили подразумеване\nБоолеан Кеибинд Цаллбацк Ацтион Бар поруке.",
+    "streamer-mode.configs.generic.name.streamerModeDisableAll": "стреамерМодеДисаблеАлл",
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Стреамер Моде Онемогући све",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Дозволите Стреамер режиму да онемогући све\nпоруке траке радњи."
 }
