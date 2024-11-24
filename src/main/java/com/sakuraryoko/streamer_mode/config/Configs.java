@@ -22,30 +22,33 @@ package com.sakuraryoko.streamer_mode.config;
 
 import java.util.List;
 import com.google.common.collect.ImmutableList;
+
 import fi.dy.masa.malilib.MaLiLibConfigs;
 import fi.dy.masa.malilib.config.IConfigValue;
-import fi.dy.masa.malilib.config.options.ConfigBoolean;
+import fi.dy.masa.malilib.config.options.ConfigBooleanHotkeyed;
+import fi.dy.masa.malilib.hotkeys.IHotkey;
+import fi.dy.masa.malilib.hotkeys.KeybindSettings;
 import com.sakuraryoko.streamer_mode.utils.StringUtils;
 
 public class Configs
 {
     //#if MC >= 12100
     //$$ private static final String GENERIC_KEY = "streamer-mode.configs.generic";
-    //$$ public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false)
-        //$$ .apply(GENERIC_KEY);
-    //$$ public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false)
-        //$$ .apply(GENERIC_KEY);
+    //$$ public static final ConfigBooleanHotkeyed STREAMER_MODE = new ConfigBooleanHotkeyed("streamerMode", false, "", KeybindSettings.RELEASE_EXCLUSIVE)
+    //$$ .apply(GENERIC_KEY);
+    //$$ public static final ConfigBooleanHotkeyed STREAMER_MODE_DISABLE_ALL = new ConfigBooleanHotkeyed("streamerModeDisableAll", false, "", KeybindSettings.RELEASE_EXCLUSIVE)
+    //$$ .apply(GENERIC_KEY);
     //#else
-    public static final ConfigBoolean STREAMER_MODE = new ConfigBoolean("streamerMode", false,
-                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.comment.streamerMode",
-                                "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages."),
-                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.prettyName.streamerMode",
-                                "Streamer Mode"));
-    public static final ConfigBoolean STREAMER_MODE_DISABLE_ALL = new ConfigBoolean("streamerModeDisableAll", false,
-                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.comment.streamerModeDisableAll",
-                                "Allow Streamer Mode to Disable all\nAction Bar messages."),
-                       StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.prettyName.streamerModeDisableAll",
-                                "Streamer Mode Disable All"));
+    public static final ConfigBooleanHotkeyed STREAMER_MODE = new ConfigBooleanHotkeyed("streamerMode", false, "", KeybindSettings.RELEASE_EXCLUSIVE,
+                                            StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.comment.streamerMode",
+                                                                                "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages."),
+                                            StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.prettyName.streamerMode",
+                                                                                "Streamer Mode"));
+    public static final ConfigBooleanHotkeyed STREAMER_MODE_DISABLE_ALL = new ConfigBooleanHotkeyed("streamerModeDisableAll", false, "", KeybindSettings.RELEASE_EXCLUSIVE,
+                                            StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.comment.streamerModeDisableAll",
+                                                                                "Allow Streamer Mode to Disable all\nAction Bar messages."),
+                                            StringUtils.getTranslatedOrFallback("streamer-mode.configs.generic.prettyName.streamerModeDisableAll",
+                                                                                "Streamer Mode Disable All"));
     //#endif
 
     public static ImmutableList<IConfigValue> getConfigList()
@@ -56,4 +59,9 @@ public class Configs
 
         return ImmutableList.copyOf(list);
     }
+
+    public static final List<IHotkey> HOTKEY_LIST = ImmutableList.of(
+            STREAMER_MODE,
+            STREAMER_MODE_DISABLE_ALL
+    );
 }
