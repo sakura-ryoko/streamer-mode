@@ -1,8 +1,9 @@
 {
     "streamer-mode.configs.generic.name.streamerMode": "מצב streamer",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "מצב סטרימר",
-    "streamer-mode.configs.generic.comment.streamerMode": "הפעל את מצב סטרימר כדי להשבית את ברירת המחדל של\nהודעות סרגל הפעולה של סרגל הפעולה של Keybind Boolean Keybind.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
+    "streamer-mode.configs.generic.comment.streamerMode": "הפעל את מצב סטרימר כדי להשבית את ברירת המחדל של\nהודעות סרגל הפעולה של סרגל הפעולה של Keybind Boolean Keybind.",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "אפשר למצב סטרימר להשבית את כל הודעות סרגל הפעולות\n.",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "מצב סטרימר",
     "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "מצב סטרימר השבת הכל",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "אפשר למצב סטרימר להשבית את כל הודעות סרגל הפעולות\n."
+    "streamer-mode.hotkeys.category.generic_hotkeys": "Generic hotkeys"
 }
