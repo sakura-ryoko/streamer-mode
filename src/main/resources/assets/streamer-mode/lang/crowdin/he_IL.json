@@ -1,8 +1,8 @@
 {
-    "streamer-mode.configs.generic.name.streamerMode": "streamerMode",
-    "streamer-mode.configs.generic.prettyName.streamerMode": "Streamer Mode",
-    "streamer-mode.configs.generic.comment.streamerMode": "Enable Streamer Mode to Disable the default\nBoolean Keybind Callback Action Bar messages.",
+    "streamer-mode.configs.generic.name.streamerMode": "מצב streamer",
+    "streamer-mode.configs.generic.prettyName.streamerMode": "מצב סטרימר",
+    "streamer-mode.configs.generic.comment.streamerMode": "הפעל את מצב סטרימר כדי להשבית את ברירת המחדל של\nהודעות סרגל הפעולה של סרגל הפעולה של Keybind Boolean Keybind.",
     "streamer-mode.configs.generic.name.streamerModeDisableAll": "streamerModeDisableAll",
-    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "Streamer Mode Disable All",
-    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "Allow Streamer Mode to Disable all\nAction Bar messages."
+    "streamer-mode.configs.generic.prettyName.streamerModeDisableAll": "מצב סטרימר השבת הכל",
+    "streamer-mode.configs.generic.comment.streamerModeDisableAll": "אפשר למצב סטרימר להשבית את כל הודעות סרגל הפעולות\n."
 }
