@@ -1,3 +1,5 @@
+# NOTE:  That this mod is only useful up until about 1.20.6, because the feature was added to MaLiLib's main branch after then.
+
 ## streamer-mode
 
 A simple mod to disable KeyAction Callback messages for being friendly to Streamer's.
