@@ -13,4 +13,4 @@ Under 1.21.3+, I have introduced the `enableActionbarMessages` config under MaLi
 3. Enable / Disable Streamer Mode.
 4. Enjoy Gaming without Keybind Action Bar Messages.
 
-[![Join Sakura's RyokoCraft Discord](https://sakuraryoko.com/files/1398873/discord-300px.png)](https://discord.gg/UPj2aU7d)
+[![Join Sakura's RyokoCraft Discord](https://sakuraryoko.com/files/1398873/discord-300px.png)](https://discord.gg/discord.gg/ryokocraftmc)
